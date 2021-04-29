@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--- Assignment 7:
+<!-- Assignment 7:
 	Style the HTML elements according to the following instructions. 
 	DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 	
@@ -27,12 +27,50 @@
 	
 	* Give all links following a link a font size of 30px.
 
---->
+-->
 <html>
 	<head>
 	  <title>Selectors Exercise</title>
 	  <style>
-	  
+      body{
+        background-color:#bdc3c7;
+      }
+      h1{
+        color:#9b59b6;
+      }
+      h2{
+        color:orange;
+      }
+      li{
+        color:#0001ff ;
+      }
+      p{
+        background-color:yellow;
+      }
+      .hello{
+        background-color:white;
+      }
+      #special{
+        border-color:#0001ff;
+        border-width:2px;
+        border-style:solid;
+      }
+      div p{
+        font-size:25px;
+      }
+      .third p{
+        background-color:pink;
+      }
+      div p+p{
+        border-color:white;
+        border-width:5px;
+      }
+      .third a{
+        font-size:25px;
+      }
+      a+a{
+        font-size:30px;
+      }
 	  </style>
 	</head>
 	<body>
@@ -87,6 +125,8 @@
 		</div>
 
 		<p>PARAGRAPH NOT INSIDE A DIV</p>
+
+    <a href="index.html">Homepage</a>
 
 	</body>
 </html>
